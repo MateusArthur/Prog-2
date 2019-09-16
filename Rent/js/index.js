@@ -13,7 +13,7 @@ document.getElementById("exibe-menu").onclick = function() {
 document.body.onresize = function() {
 	var x = window.outerWidth;
 	var menu = document.getElementsByClassName("menu-opcoes")[0];
-	if(x >= 100)
+	if(x >= 1000)
 		menu.style.display = "initial";
 	else
 		menu.style.display = "none";

@@ -8,7 +8,7 @@
 }
 
 input[type="text"], input[type="email"], input[type="password"], select, textarea {
-	width: 50%;
+	width: 100%;
 	border: 1px solid #5995DA;
 	padding: 3px;
 }
@@ -26,21 +26,21 @@ input[type="submit"]:hover{
 }
 
 @media only screen and (min-width: 1000px) {
-	.rotulo {
+	.rotulo{
 		display: inline-block;
 		width: 20%;
 		text-align: right;
 	}
 
 	input[type="text"], input[type="email"], input[type="password"], select, textarea {
-		display: initial;
+		width: initial;
 	}
 }
 
-.mgs-erro{
+.msg-erro{ 
 	padding-left: 200px;
 	padding-top: 5px;
-	color: red;
+	color: red; 
 	font-size: 0.8em;
 	font-style: italic;
 	display: none;

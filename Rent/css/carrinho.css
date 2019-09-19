@@ -1,0 +1,101 @@
+/********************************************** config. gerais da estrutura da página */
+* {
+  box-sizing: border-box;    
+}
+
+a {
+  text-decoration: none; /* todos os links sem sublinhado */
+}
+
+body {
+  font-family: "Lucida Sans", sans-serif;
+  margin: 0;
+}
+
+.menu-car {
+  padding-left: 20px;
+  padding-bottom: 50px;
+  width: 95%;
+  margin-left: 20px;
+  background-color: #5995DA;
+  color: #ffffff;
+  border: 1px solid #c3c3c3;
+}
+
+.div-car {
+  margin-left: 20px;
+	width: 95%;
+	border: 1px solid #c3c3c3;
+  padding-bottom: 370px;
+}
+
+#x{
+  margin-top: 50px;
+  margin-left: 40px;
+  color: #FA8072;
+  float: left;
+}
+
+.menu-prod {
+  float: left;
+  margin-left: 250px;
+}
+
+.prod-one{
+  float: left;
+  border: 1px solid #c3c3c3;
+  padding-bottom: 25px;
+  padding-right: 50px;
+  color: #c3c3c3;
+}
+.prod-two {
+  float: left;
+  border: 1px solid #c3c3c3;
+  padding-bottom: 25px;
+  padding-right: 50px;
+  color: #c3c3c3;
+}
+.prod-three {
+  float: left;
+  border: 1px solid #c3c3c3;
+  padding-bottom: 25px;
+  padding-right: 50px;
+  color: #c3c3c3;
+}
+.menu-preco {
+  float: left;
+  margin-left: 250px;
+}
+.menu-qnt {
+  float: left;
+  margin-left: 100px;
+}
+.img-prod1 {
+  margin-top: 25px;
+  margin-left: 50px;
+  width: 70px;
+  height: 70px;
+  float: left;
+}
+.desc-prod1 {
+  float: left;
+  margin-left: 75px;
+  width: 128px;
+  color: black;
+  margin-top: 45px;
+}
+
+.preco-prod1{
+  float: left;
+  margin-left: 220px;
+  color: green;
+  margin-top: 45px;
+}
+
+.form-control {
+  width: 60px;
+  height: 30px;
+  float: left;
+  margin-left: 120px;
+  margin-top: 35px;
+}

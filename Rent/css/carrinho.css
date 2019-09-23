@@ -42,24 +42,24 @@ body {
 }
 
 .prod-one{
+  width: 100%;
   float: left;
   border: 1px solid #c3c3c3;
   padding-bottom: 25px;
-  padding-right: 50px;
   color: #c3c3c3;
 }
 .prod-two {
+  width: 100%;
   float: left;
   border: 1px solid #c3c3c3;
   padding-bottom: 25px;
-  padding-right: 50px;
   color: #c3c3c3;
 }
 .prod-three {
+  width: 100%;
   float: left;
   border: 1px solid #c3c3c3;
   padding-bottom: 25px;
-  padding-right: 50px;
   color: #c3c3c3;
 }
 .menu-preco {
@@ -95,7 +95,31 @@ body {
 .form-control {
   width: 60px;
   height: 30px;
-  float: left;
-  margin-left: 120px;
+  float: right;
   margin-top: 35px;
+  position: relative;
+  right: 70px;
+}
+
+.menu-total {
+  margin-top: 20px;
+  width: 40%;
+  float:right;
+  position: relative;
+  left: 2px;
+  padding-left: 110px;
+  background-color: #5995DA;
+  color: #ffffff;
+  border: 1px solid #c3c3c3;
+}
+
+.conclusao {
+  width: 40%;
+  float: right;
+  position: relative;
+  left: 359px;
+  border: 1px solid #c3c3c3;
+  padding-bottom: 200px;
+  margin-top: 71px;
+  color: #c3c3c3;
 }

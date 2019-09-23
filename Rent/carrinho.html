@@ -67,22 +67,28 @@
 						<i class="fa fa-close" id="x" style="font-size:20px"></i>
 						<img src="img/produtos/projetor.jpg" alt="miniatura1" class="img-prod1">
 						<p class="desc-prod1">Projeto Multimídia</p>
-						<p class="preco-prod1">R$20,00</p>
-						<input class="form-control" type="number" value="1" min="1" max="10"/>
+						<p class="preco-prod1" id="valor_prod1">R$20,00</p>
+						<input class="form-control" id="qnt_prod1" type="number" value="1" min="1" max="10" onchange="mudar_one()"/>
 					</div>
 					<div class="prod-two">
 						<i class="fa fa-close" id="x" style="font-size:20px"></i>
 						<img src="img/produtos/lavadora.jpg" alt="miniatura1" class="img-prod1">
 						<p class="desc-prod1">Lavadora de alta pressão</p>
-						<p class="preco-prod1">R$20,00</p>
-						<input class="form-control" type="number" value="1" min="1" max="10"/>
+						<p class="preco-prod1" id="valor_prod2">R$20,00</p>
+						<input class="form-control" id="qnt_prod2" type="number" value="1" min="1" max="10" onchange="mudar_two()"/>
 					</div>
 					<div class="prod-three">
 						<i class="fa fa-close" id="x" style="font-size:20px"></i>
 						<img src="img/produtos/serra3.jpg" alt="miniatura1" class="img-prod1">
 						<p class="desc-prod1">Serra elétrica</p>
-						<p class="preco-prod1">R$20,00</p>
-						<input class="form-control" type="number" value="1" min="1" max="10"/>
+						<p class="preco-prod1" id="valor_prod3">R$20,00</p>
+						<input class="form-control" id="qnt_prod3" type="number" value="1" min="1" max="10" onchange="mudar_three()"/>
+					</div>
+					<div class="menu-total">
+						<p>Total no carrinho</p>
+					</div>
+					<div class="conclusao">
+						<p class="subtotal">Subtotal</p>
 					</div>
 				</section>
 			</div>			
@@ -134,5 +140,6 @@
 	<!-- fim rodape -->
     <script src="js/index.js"></script>
 	<script src="js/cad_cliente.js"></script>
+	<script src="js/carrinho.js"></script>
 </body>
 </html>

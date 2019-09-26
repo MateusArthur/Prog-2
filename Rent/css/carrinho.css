@@ -12,197 +12,87 @@ body {
   margin: 0;
 }
 
-.menu-car {
-  padding-left: 20px;
-  padding-bottom: 50px;
-  width: 95%;
-  margin-left: 20px;
+td {
+  padding: 15px;
+}
+
+/* TABELA DE PROTUDOS*/
+
+.menu-tab {
+  color: white;
   background-color: #5995DA;
-  color: #ffffff;
+}
+
+.carrinho {
+  margin: 0;
+  padding: 0;
+}
+
+.tab-prod{
   border: 1px solid #c3c3c3;
+  border-collapse: collapse;
+  width: 50%;
 }
-
-.div-car {
-  margin-left: 20px;
-	width: 95%;
-	border: 1px solid #c3c3c3;
-  padding-bottom: 370px;
+td i {
+  padding: 0;
+  margin: 0;
 }
-
 #x{
-  margin-top: 50px;
-  margin-left: 40px;
+  margin-top: 4%;
+  margin-left: 1%;
   color: #FA8072;
   float: left;
-}
-
-.menu-prod {
-  float: left;
-  margin-left: 250px;
-}
-
-.prod-one{
-  width: 100%;
-  float: left;
-  border: 1px solid #c3c3c3;
-  padding-bottom: 25px;
-  color: #c3c3c3;
-}
-.prod-two {
-  width: 100%;
-  float: left;
-  border: 1px solid #c3c3c3;
-  padding-bottom: 25px;
-  color: #c3c3c3;
-}
-.prod-three {
-  width: 100%;
-  float: left;
-  border: 1px solid #c3c3c3;
-  padding-bottom: 25px;
-  color: #c3c3c3;
-}
-.menu-preco {
-  float: left;
-  margin-left: 250px;
-}
-.menu-qnt {
-  float: left;
-  margin-left: 100px;
-}
-.img-prod1 {
-  margin-top: 25px;
-  margin-left: 50px;
-  width: 70px;
-  height: 70px;
-  float: left;
-}
-.desc-prod1 {
-  float: left;
-  margin-left: 75px;
-  width: 128px;
-  color: black;
-  margin-top: 45px;
-}
-
-.preco-prod1{
-  float: left;
-  margin-left: 220px;
-  color: green;
-  margin-top: 45px;
 }
 
 .form-control {
   width: 60px;
   height: 30px;
-  float: right;
-  margin-top: 35px;
-  position: relative;
-  right: 70px;
 }
 
-.menu-total {
-  margin-top: 20px;
-  width: 40%;
-  float:right;
-  position: relative;
-  left: 2px;
-  padding-left: 110px;
-  background-color: #5995DA;
-  color: #ffffff;
-  border: 1px solid #c3c3c3;
+tr img {
+  margin-top: %7;
+  margin-left: 25px;
+  width: 70px;
+  height: 70px;
 }
+
+
+/* TABELA DE CONCLUIR COMPRA*/
 
 .conclusao {
-  display: block;
-  width: 40%;
-  float: right;
-  position: relative;
-  left: 359px;
+  position: static;
+  margin-top: 4%;
+  left: 57.3%;
+  padding-top: 5px;
   border: 1px solid #c3c3c3;
-  padding-bottom: 0px;
-  margin-top: 71px;
-  color: black;
+  border-collapse: collapse;
 }
-.subtotal {
-  margin: 0;
-  width: 50%;
-  float: left;
-  padding-left:10px; 
-  position: relative;
-  border: 1px solid #c3c3c3;
-  padding-top: 20px;
-  padding-bottom: 20px;
+
+.direita {
+  padding-right: 20%;
 }
-.valor_tot {
-  margin: 0;
-  width: 50%;
-  float: right;
-  padding-left: 10px;
-  position: relative;
-  border: 1px solid #c3c3c3;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: green;
-}
-.entrega {
-  margin: 0;
-  width: 50%;
-  float: left;
-  padding-left:10px; 
-  position: relative;
-  border: 1px solid #c3c3c3;
-  padding-top: 43px;
-  padding-bottom: 44px;
-}
-.frete {
-  font-size: small;
-  margin: 0;
-  width: 50%;
-  float: right;
-  padding-left: 10px;
-  position: relative;
-  border: 1px solid #c3c3c3;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
+
 .verde{
   color: green;
 }
 
-.total_fin {
-  margin: 0;
-  width: 50%;
-  float: left;
-  padding-left:10px; 
-  position: relative;
-  border: 1px solid #c3c3c3;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.valor_fina {
-  margin: 0;
-  width: 50%;
-  float: right;
-  padding-left: 10px;
-  position: relative;
-  border: 1px solid #c3c3c3;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: green;
-}
-
 .finalizar {
-  background-color: green;
-  margin-top: 15px;
-  width: 90%;
-  float: left;
-  padding-left: 80px;
-  margin-left: 20px;
-  position: relative;
-  border: 1px solid #c3c3c3;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 38%;
+  color: black;
+  border: 1.1px solid lightgreen;
+  background-color: lightgreen;
+}
+
+.finalizar:hover {
   color: white;
+  background-color: green;
+}
+
+.menu-total {
+  padding: 0;
+  padding-left: 28%;
+  color:white;
+  background-color: #5995DA;
 }

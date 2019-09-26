@@ -56,51 +56,62 @@
 
 		<section class="col-2">
 			<h2>Carrinho</h2>
-			<div>
-				<section class="menu-car">
-					<p class="menu-prod">PRODUTO</p>
-					<p class="menu-preco">PREÇO</p>
-					<p class="menu-qnt">QUANTIDADE</p>
-				</section>
-				<section class="div-car">
-					<div class="prod-one">
-						<i class="fa fa-close" id="x" style="font-size:20px"></i>
-						<img src="img/produtos/projetor.jpg" alt="miniatura1" class="img-prod1">
-						<p class="desc-prod1">Projeto Multimídia</p>
-						<p class="preco-prod1" id="valor_prod1">R$20,00</p>
-						<input class="form-control" id="qnt_prod1" type="number" value="1" min="1" max="10" onchange="mudar_one()"/>
-					</div>
-					<div class="prod-two">
-						<i class="fa fa-close" id="x" style="font-size:20px"></i>
-						<img src="img/produtos/lavadora.jpg" alt="miniatura1" class="img-prod1">
-						<p class="desc-prod1">Lavadora de alta pressão</p>
-						<p class="preco-prod1" id="valor_prod2">R$20,00</p>
-						<input class="form-control" id="qnt_prod2" type="number" value="1" min="1" max="10" onchange="mudar_two()"/>
-					</div>
-					<div class="prod-three">
-						<i class="fa fa-close" id="x" style="font-size:20px"></i>
-						<img src="img/produtos/serra3.jpg" alt="miniatura1" class="img-prod1">
-						<p class="desc-prod1">Serra elétrica</p>
-						<p class="preco-prod1" id="valor_prod3">R$20,00</p>
-						<input class="form-control" id="qnt_prod3" type="number" value="1" min="1" max="10" onchange="mudar_three()"/>
-					</div>
-					<div class="menu-total">
+			<div class="carrinho">
+				<table border="1" class="tab-prod">
+					<tr>
+						<td class="menu-tab"></td>
+						<td class="menu-tab"></td>
+						<td class="menu-tab">PRODUTO</td>
+						<td class="menu-tab">PREÇO</a>
+						<td class="menu-tab">QUANTIDADE</td>
+					</tr>
+					<tr>
+						<td><i class="fa fa-close" id="x" style="font-size:20px"></i></td>
+						<td><img src="img/produtos/projetor.jpg" alt="miniatura1"></td>
+						<td class="nome-prod">Projeto Multimídia</td>
+						<td class="valor-prod" id="valor_prod1">R$20,00</td>
+						<td><input class="form-control" id="qnt_prod1" type="number" value="1" min="1" max="10" onchange="mudar_one()"/></td>
+					</tr>
+					<tr>
+						<td><i class="fa fa-close" id="x" style="font-size:20px"></i></td>
+						<td><img src="img/produtos/lavadora.jpg" alt="miniatura1"></td>
+						<td class="nome-prod">Lavadora de alta pressão</td>
+						<td class="valor-prod" id="valor_prod2">R$20,00</td>
+						<td><input class="form-control" id="qnt_prod2" type="number" value="1" min="1" max="10" onchange="mudar_two()"/></td>
+					</tr>
+					<tr>
+						<td><i class="fa fa-close" id="x" style="font-size:20px"></i></td>
+						<td><img src="img/produtos/serra3.jpg" alt="miniatura1"></td>
+						<td><a class="nome-prod">Serra elétrica</a></td>
+						<td><a class="valor-prod" id="valor_prod3">R$20,00</a></td>
+						<td><input class="form-control" id="qnt_prod3" type="number" value="1" min="1" max="10" onchange="mudar_three()"/></td>
+					</tr>
+				</table>
+				<table border ="1" class="conclusao">
+					<td colspan="2" class="menu-total">
 						<p>Total no carrinho</p>
-					</div>
-					<div class="conclusao">
-						<p class="subtotal">Subtotal</p>
-						<p class="valor_tot">R$20,00</p>
-						<p class="entrega">Entrega</p>
-						<p class="frete">Retirar no Local <a class="verde">R$0,00</a>
+					</td>
+					<tr>
+						<td class="direita">Subtotal</td>
+						<td>R$20,00</td>
+					</tr>
+					<tr>
+						<td class="direita">Entrega</td>
+						<td>Retirar no Local <a class="verde">R$0,00</a>
 							<br>
 							<br>
 							<a href="#">CALCULAR FRETE</a>
-						</p>
-						<p class="total_fin">Total</p>
-						<p class="valor_fina">R$20,00</p>
-						<p class="finalizar">Finalizar Compra</p>
-					</div>
-				</section>
+						</td>
+					</tr>
+					<tr>
+						<td class="direita">Total</td>
+						<td>R$20,00</td>
+					</tr>
+						<td colspan="2">
+						<div class="finalizar">Finalizar</div> 
+					</td>
+					</tr>
+				</table>
 			</div>			
 		</section>
 

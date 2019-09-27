@@ -42,10 +42,10 @@ td i {
   color: #FA8072;
 }
 .spd {
-  margin-left: 55%;
+  margin-left: 45%;
 }
 .form-control {
-  margin-left: 60%;
+  margin-left: 50%;
   width: 60px;
   height: 30px;
 }
@@ -97,7 +97,7 @@ tr img {
   margin-left: 29%;
   padding-top: 3%;
   padding-bottom: 3%;
-  padding-left: 10%;
+  padding-left: 5%;
   color: black;
   border: 1.1px solid lightgreen;
   background-color: lightgreen;

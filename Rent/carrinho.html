@@ -57,13 +57,13 @@
 		<section class="col-2">
 			<h2>Carrinho</h2>
 			<div class="carrinho">
-				<table border="1" class="tab-prod">
+				<table rules="rows" border="1" class="tab-prod">
 					<tr>
 						<td class="menu-tab"></td>
 						<td class="menu-tab"></td>
 						<td class="menu-tab">PRODUTO</td>
-						<td class="menu-tab">PREÇO</a>
-						<td class="menu-tab">QUANTIDADE</td>
+						<td class="menu-tab">PREÇO</td>
+						<td class="menu-tab"><div class="spd">QUANTIDADE</div></td>
 					</tr>
 					<tr>
 						<td><i class="fa fa-close" id="x" style="font-size:20px"></i></td>
@@ -86,6 +86,15 @@
 						<td><a class="valor-prod" id="valor_prod3">R$20,00</a></td>
 						<td><input class="form-control" id="qnt_prod3" type="number" value="1" min="1" max="10" onchange="mudar_three()"/></td>
 					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td>
+							<div class="att">ATUALIZAR CARRINHO</div>
+						</td>
+					</tr>
 				</table>
 				<table border ="1" class="conclusao">
 					<td colspan="2" class="menu-total">
@@ -93,19 +102,19 @@
 					</td>
 					<tr>
 						<td class="direita">Subtotal</td>
-						<td>R$20,00</td>
+						<td id="stotal">R$60,00</td>
 					</tr>
 					<tr>
 						<td class="direita">Entrega</td>
-						<td>Retirar no Local <a class="verde">R$0,00</a>
+						<td><label><input type="radio" name="cal_frete" value="l" id="r_local" checked>Retirar no Local <a class="verde">R$0,00</a></label>
 							<br>
 							<br>
-							<a href="#">CALCULAR FRETE</a>
+							<label><input type="radio" name="cal_frete" value="c" id="r_frete">Receber em casa <a class="verde">R$20,00</a></label>
 						</td>
 					</tr>
 					<tr>
 						<td class="direita">Total</td>
-						<td>R$20,00</td>
+						<td id="ftotal">R$60,00</td>
 					</tr>
 						<td colspan="2">
 						<div class="finalizar">Finalizar</div> 
